@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+}
+#main-header {
+  background-color: #303030;
+  color: #ffffff;
+  height: 475px;
+}
+
+#header-title {
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -0.025em;
+  text-align: left;
+  margin: 0;
+  padding-top: 226px;
+  padding-left: 42px;
+}
+
+#header-subtitle {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+  padding-left: 42px;
+  margin: 10px 0 0 0;
+}
+
+#banner {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+#banner h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  margin: 0;
+}
+
+#banner p {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  margin: 10px 0 0 0;
+}
+
+#stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 229px;
+  background-color: #f9f9f9;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-number {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  margin: 0 0 4px 0;
+}
+
+.stat-description {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#display-about {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+}
+
+.section-description {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: left;
+}
+
+#main-footer {
+  background-color: #303030;
+  height: 638px;
+}
+
+#footer-title {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 90px;
+  letter-spacing: 2px;
+  margin-bottom: 48px;
+}
+
+#contact-form {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.name-input_cl {
+  width: 508px;
+  height: 55px;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 62px;
+}
+#submit-button {
+    background-color: #c07212;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 74px;
+    margin-top: 26px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s ease-in-out;
+  }
+  
+  #submit-button:hover {
+    background-color: #e88d2c;
+    transform: translateY(-5px);
+  }
+  
